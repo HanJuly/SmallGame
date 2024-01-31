@@ -1,22 +1,9 @@
 <!DOCTYPE html>
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="Your Game Title">
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, target-densitydpi=medium-dpi">
-<meta name="screen-orientation" content="landscape">
-<meta name="x5-orientation" content="landscape">
-<meta name="full-screen" content="yes">
-<meta name="x5-fullscreen" content="true">
-<meta name="browsermode" content="application">
-<meta name="x5-page-mode" content="app">
-
 <html lang="en-us">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Kickingbackpack</title>
+    <title>Unity WebGL Player | CatGame</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -33,7 +20,7 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">Kickingbackpack</div>
+        <div id="unity-build-title">CatGame</div>
       </div>
     </div>
     <script>
@@ -71,12 +58,12 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/web.loader.js";
       var config = {
-        dataUrl: buildUrl + "/web.data.unityweb",
-        frameworkUrl: buildUrl + "/web.framework.js.unityweb",
-        codeUrl: buildUrl + "/web.wasm.unityweb",
+        dataUrl: buildUrl + "/web.data.br",
+        frameworkUrl: buildUrl + "/web.framework.js.br",
+        codeUrl: buildUrl + "/web.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "Kickingbackpack",
+        productName: "CatGame",
         productVersion: "1.0",
         showBanner: unityShowBanner,
       };
@@ -102,7 +89,7 @@
         // performance, uncomment the following line:
         // config.devicePixelRatio = 1;
 
-        //unityShowBanner('WebGL builds are not supported on mobile devices.');
+        unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
         // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
 
