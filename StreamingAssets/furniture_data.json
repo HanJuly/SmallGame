@@ -1,0 +1,19 @@
+{
+    "datas": [
+        {
+            "prefabName": "Armchair_1 Variant",
+            "thumbnailName": "Armchair_1 Variant.PNG",
+			"price":20000
+        },
+		{
+            "prefabName": "Box_With_Flowers_2 Variant",
+            "thumbnailName": "Armchair_1 Variant.PNG",
+			"price":30000
+        },
+		{
+            "prefabName": "Table_10 Variant",
+            "thumbnailName": "Armchair_1 Variant.PNG",
+			"price":4000000
+        }
+    ]
+}
